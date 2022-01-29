@@ -1,0 +1,176 @@
+.navbar-utama {
+  padding-top: 40px;
+}
+
+.navbar-utama .navbar-nav li {
+  padding-left: 40px;
+  font-size: 18px;
+}
+
+.navbar-utama .navbar-nav li .active {
+  font-weight: 600 !important;
+}
+
+.sales .header {
+  margin-top: 100px;
+  font-weight: 600 !important;
+  font-size: 48px;
+}
+
+.sales .description {
+  margin-top: 16px;
+  color: #999999 !important;
+}
+
+.sales .brand {
+  margin-top: 70px;
+}
+
+.sales .brand .brand-logos {
+  width: 724px;
+}
+
+.sales .copywriting {
+  margin-top: 10px;
+}
+
+.sales .iklan {
+  margin-top: 43px;
+}
+
+.sales .iklan .p-2 {
+  margin-right: 41px;
+}
+
+.sales .cari {
+  width: 438px;
+}
+
+.sales .cari .info {
+  background: #f7f7f9 !important;
+}
+
+.sales .btn {
+  margin-top: 20px;
+  width: 170px;
+  height: 40px;
+  background: #ff9376;
+  border: 0px;
+}
+
+.sales .judul {
+  margin-top: 38px;
+}
+
+.destinasi {
+  margin-top: 38px;
+}
+
+.destinasi .judul {
+  font-size: 38px;
+}
+
+.destinasi .desktipsi {
+  margin-top: 16px;
+}
+
+.destinasi .tujuan {
+  margin-top: 63px;
+  margin-left: 10px;
+}
+
+.destinasi h5 {
+  margin-top: 20px;
+}
+
+.destinasi p {
+  margin-top: 6px;
+}
+
+.party .bg {
+  width: 1087px;
+  height: 476px;
+  margin-top: 107px;
+  margin-left: -10px;
+  background: #f7f7f9;
+  border-top-right-radius: 40px;
+}
+
+.party .bg .konten {
+  padding-top: 90px;
+  margin-left: 310px;
+}
+
+.party .bg .konten .jarak, .party .bg .konten .jarak2 {
+  padding-left: 90px;
+}
+
+.party .bg .konten .jarak2 {
+  padding-left: 170px;
+}
+
+.party .bg .konten .jarak3 {
+  padding-left: 250px;
+}
+
+@media (max-width: 576px) {
+  .sales .header {
+    margin-top: 100px;
+    font-weight: 600 !important;
+    font-size: 48px;
+  }
+  .sales .description {
+    margin-top: 16px;
+    color: #999999 !important;
+  }
+  .sales .gambar {
+    height: 450px;
+  }
+  .sales .copywriting {
+    margin-top: 10px;
+  }
+  .sales .iklan {
+    margin-top: 43px;
+  }
+  .sales .iklan .p-2 {
+    margin-right: 41px;
+  }
+  .sales .cari {
+    width: 438px;
+  }
+  .sales .cari .info {
+    background: #f7f7f9 !important;
+  }
+  .sales .btn {
+    margin-top: 20px;
+    width: 170px;
+    height: 40px;
+    background: #ff9376;
+    border: 0px;
+  }
+  .sales .judul {
+    margin-top: 38px;
+    width: 400px;
+  }
+  .party .bg {
+    width: 187px;
+    height: 76px;
+    margin-top: 70px;
+    background: #f7f7f9;
+    border-top-right-radius: 40px;
+  }
+  .party .bg .konten {
+    padding-top: 90px;
+    margin-left: 10px;
+  }
+  .party .bg .konten .jarak, .party .bg .konten .jarak2 {
+    padding-left: 90px;
+  }
+  .party .bg .konten .jarak2 {
+    padding-left: 170px;
+  }
+  .party .bg .konten .jarak3 {
+    padding-left: 250px;
+  }
+}
+/*# sourceMappingURL=main.css.map */
