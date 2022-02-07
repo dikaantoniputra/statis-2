@@ -1,0 +1,10 @@
+.navbar {
+  padding-top: 36px;
+  padding-bottom: 36px;
+  li {
+    font-size: 20px;
+    font-weight: map-get($font-weights, medium);
+    padding-left: 60px;
+  }
+}
+

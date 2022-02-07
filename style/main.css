@@ -1,176 +1,169 @@
-.navbar-utama {
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css");
+.navbar {
+  padding-top: 36px;
+  padding-bottom: 36px;
+}
+
+.navbar li {
+  font-size: 20px;
+  font-weight: 500;
+  padding-left: 60px;
+}
+
+.studentgovernment {
+  margin-top: 50px;
+}
+
+.header .carousel {
+  z-index: -1;
+}
+
+.header .carousel-inner:after {
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.tentang {
+  z-index: -1;
+  margin-top: -35px;
+  height: 374px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 0 15px 5px rgba(10, 10, 10, 0.2);
+          box-shadow: 0 0 15px 5px rgba(10, 10, 10, 0.2);
+  z-index: 2;
+}
+
+.tentang h2 {
+  padding-top: 40px;
+  padding-left: 100px;
+  font-weight: 500;
+}
+
+.tentang .garis {
+  margin-top: 12px;
+  width: 234px;
+  height: 3px;
+  background-color: #1b5cff;
+}
+
+.tentang .sikrema {
+  margin-top: 50px;
+}
+
+.tentang h1 {
+  color: #f89d08;
+  padding-left: 100px;
+  font-size: 72px;
+}
+
+.tentang h5 {
+  color: #1b5cff;
+  padding-left: 100px;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.tentang p {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.informasi h2 {
+  color: #ffffff;
   padding-top: 40px;
 }
 
-.navbar-utama .navbar-nav li {
-  padding-left: 40px;
-  font-size: 18px;
+.informasi .garis {
+  width: 966px;
+  height: 3px;
+  background-color: #ffffff;
+  margin-left: 345px;
 }
 
-.navbar-utama .navbar-nav li .active {
-  font-weight: 600 !important;
+.informasi h4 {
+  color: #f89d08;
 }
 
-.sales .header {
-  margin-top: 100px;
-  font-weight: 600 !important;
-  font-size: 48px;
+.informasi h6 {
+  padding-top: 5px;
+  color: #ffffff;
 }
 
-.sales .description {
-  margin-top: 16px;
-  color: #999999 !important;
+.informasi img {
+  border: 2px solid #f89d08;
+  margin-top: 21px;
 }
 
-.sales .brand {
-  margin-top: 70px;
+.informasi p {
+  padding-top: 8px;
+  color: #ffffff;
 }
 
-.sales .brand .brand-logos {
-  width: 724px;
+.informasi .btn {
+  color: #ffffff;
 }
 
-.sales .copywriting {
-  margin-top: 10px;
+.informasi .carousel-inner {
+  padding-bottom: 80px;
 }
 
-.sales .iklan {
-  margin-top: 43px;
+.informasi .carousel-indicators {
+  border-radius: 100%;
 }
 
-.sales .iklan .p-2 {
-  margin-right: 41px;
+.unitkmh {
+  margin-top: 40px;
+  padding-bottom: 40px;
 }
 
-.sales .cari {
-  width: 438px;
+.unitkmh .substaf {
+  float: left;
 }
 
-.sales .cari .info {
-  background: #f7f7f9 !important;
+.unitkmh .konten {
+  padding-top: 50px;
 }
 
-.sales .btn {
-  margin-top: 20px;
-  width: 170px;
-  height: 40px;
-  background: #ff9376;
-  border: 0px;
+.unitkmh .konten .judul {
+  color: #ffffff;
 }
 
-.sales .judul {
-  margin-top: 38px;
+.unitkmh .konten .subjudul2 {
+  color: #f89d08;
+  padding-bottom: 10px;
 }
 
-.destinasi {
-  margin-top: 38px;
+.unitkmh .konten .kontenkmh {
+  color: #ffffff;
 }
 
-.destinasi .judul {
-  font-size: 38px;
+.studentgovernment {
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 0 15px 5px rgba(10, 10, 10, 0.2);
+          box-shadow: 0 0 15px 5px rgba(10, 10, 10, 0.2);
+  padding-top: 50px;
 }
 
-.destinasi .desktipsi {
-  margin-top: 16px;
+.studentgovernment .judul {
+  font-size: 36px;
+  text-align: center;
+  padding-bottom: 30px;
 }
 
-.destinasi .tujuan {
-  margin-top: 63px;
-  margin-left: 10px;
+.studentgovernment .garis {
+  height: 3px;
+  width: 293px;
+  background: #1b5cff;
 }
 
-.destinasi h5 {
-  margin-top: 20px;
-}
-
-.destinasi p {
-  margin-top: 6px;
-}
-
-.party .bg {
-  width: 1087px;
-  height: 476px;
-  margin-top: 107px;
-  margin-left: -10px;
-  background: #f7f7f9;
-  border-top-right-radius: 40px;
-}
-
-.party .bg .konten {
-  padding-top: 90px;
-  margin-left: 310px;
-}
-
-.party .bg .konten .jarak, .party .bg .konten .jarak2 {
-  padding-left: 90px;
-}
-
-.party .bg .konten .jarak2 {
-  padding-left: 170px;
-}
-
-.party .bg .konten .jarak3 {
-  padding-left: 250px;
-}
-
-@media (max-width: 576px) {
-  .sales .header {
-    margin-top: 100px;
-    font-weight: 600 !important;
-    font-size: 48px;
-  }
-  .sales .description {
-    margin-top: 16px;
-    color: #999999 !important;
-  }
-  .sales .gambar {
-    height: 450px;
-  }
-  .sales .copywriting {
-    margin-top: 10px;
-  }
-  .sales .iklan {
-    margin-top: 43px;
-  }
-  .sales .iklan .p-2 {
-    margin-right: 41px;
-  }
-  .sales .cari {
-    width: 438px;
-  }
-  .sales .cari .info {
-    background: #f7f7f9 !important;
-  }
-  .sales .btn {
-    margin-top: 20px;
-    width: 170px;
-    height: 40px;
-    background: #ff9376;
-    border: 0px;
-  }
-  .sales .judul {
-    margin-top: 38px;
-    width: 400px;
-  }
-  .party .bg {
-    width: 187px;
-    height: 76px;
-    margin-top: 70px;
-    background: #f7f7f9;
-    border-top-right-radius: 40px;
-  }
-  .party .bg .konten {
-    padding-top: 90px;
-    margin-left: 10px;
-  }
-  .party .bg .konten .jarak, .party .bg .konten .jarak2 {
-    padding-left: 90px;
-  }
-  .party .bg .konten .jarak2 {
-    padding-left: 170px;
-  }
-  .party .bg .konten .jarak3 {
-    padding-left: 250px;
-  }
+.studentgovernment .carousel-inner {
+  padding-top: 50px;
+  padding-bottom: 80px;
+  padding-left: 20px;
 }
 /*# sourceMappingURL=main.css.map */
